@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spline Sans', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    text-align: justify;
+}
+.box{
+    border-left: 5px solid red;
+    margin-top: 150px;
+}
+.box h1{
+    padding: 0px 20px;
+    font-family: 'Playfair Display', serif;
+}
+.p-tag1{
+    margin-bottom: 35px;
+}
+.p-tag2{
+    margin-top: 45px;
+}
+
+.orange{
+    color: rgb(219, 168, 28);
+}
+
+.button{
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(218, 73, 7);
+    border-radius: 5px;
+}
+
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 70%;
+    margin-left: 20%;
+}
+#top-banner{
+    margin-bottom: 80px;
+}
+/* top banner end  */
+
+/* my-mission part start  */
+#my-mission h2{
+    text-align: center;
+    font-weight: 700;
+}
+
+.mission-box{
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+.mission-box img{
+    width: 30%;
+}
+.margin-left{
+    margin-left: 3%;
+}
+#mission{
+    background-color: rgb(224, 241, 226);
+}
+#vission{
+    background-color: rgb(218, 235, 235);
+}
+#goal{
+    background-color: rgb(241, 241, 218);
+}
+#my-mission{
+    margin-bottom: 80px;
+}
+/* my-mission part end  */
+
+/* develop-limits start  */
+
+#develop-limits{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 9%;
+    background-position-y: 40%;
+    margin-bottom: 80px;
+}
+
+.half-width .develop{
+    margin-top: 70px;
+}
+/* develop-limits end  */
+
+/* global-community start  */
+#global-community{
+    background-image: url(images/shape-02.png);
+    background-repeat: no-repeat;
+    background-position-y: 98%;
+    background-position-x: 93%;
+    height: 470px;
+}
+.half-width #back-img{
+    height: 400px;
+}
+/*global-community end  */
+
+/* contact-us start  */
+
+.half-width form label{
+    color: gray;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+.half-width #contact-img{
+    margin-top: 70px;
+    width: 80%;
+}
+.contact-text{
+    padding-left: 18%;
+}
+
+form input{
+    height: 40px;
+    width: 400px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+form textarea{
+    height: 150px;
+    width: 400px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+/* contact-us end  */
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(12, 9, 7);
+    margin-top: 80px;
+    padding: 18px 0px;
+    font-family: 'Playfair Display', serif;
+}
+ /* the end  */
